@@ -45,9 +45,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Flussonic watcher api'
-copyright = u'Erlyvideo'
-author = u''
+project = u'Smarty'
+copyright = u'2016, Microimpuls LLC, www.microimpuls.com'
+author = u'Konstantin Shpinev, Rafis Gubaydullin, Sergey Yakovlev, Alexander Larin'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -63,7 +63,7 @@ release = u'Last'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'ru'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -221,7 +221,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = []
+latex_documents = [
+    (master_doc, 'Smarty.tex', u'Smarty Documentation',
+     u'Konstantin Shpinev', 'manual'),
+]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -248,7 +251,10 @@ latex_documents = []
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = []
+man_pages = [
+    (master_doc, 'smarty', u'Smarty Documentation',
+     [author], 1)
+]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -259,7 +265,11 @@ man_pages = []
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = []
+texinfo_documents = [
+    (master_doc, 'Smarty', u'Smarty Documentation',
+     author, 'Smarty', 'One line description of project.',
+     'Miscellaneous'),
+]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
