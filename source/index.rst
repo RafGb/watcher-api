@@ -1,12 +1,8 @@
 
 Welcome to Flussonic Watcher's documentation!
 *********************************************
-.. toctree::
-   :maxdepth: 2
 
-   api
-
-* `API v2 <api>`_
+* `API v2 <api.rst>`_
   * `Conventions <api.rst#conventions>`_
   * `Authentication <api.rst#authentication>`_
   * `Camera Management <api.rst#camera-management>`_

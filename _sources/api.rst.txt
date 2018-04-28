@@ -1,0 +1,37 @@
+API v2
+======
+
+.. automodule:: watcher.api.v2
+
+.. qrefflask:: watcher:create_app(web=True)
+  :undoc-static:
+
+
+Authentication
+--------------
+.. autoflask:: watcher:create_app(web=True)
+  :include-empty-docstring:
+  :modules: watcher.api.v2.login
+
+
+Camera Management
+-----------------
+.. autoflask:: watcher:create_app(web=True)
+  :include-empty-docstring:
+  :modules: watcher.api.v2.cameras
+
+
+User Management
+---------------
+.. autoflask:: watcher:create_app(web=True)
+  :include-empty-docstring:
+  :modules: watcher.api.v2.users
+
+
+Group Management
+----------------
+.. autoflask:: watcher:create_app(web=True)
+  :include-empty-docstring:
+  :modules: watcher.api.v2.groups
+
+
