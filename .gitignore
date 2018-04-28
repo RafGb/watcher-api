@@ -1,5 +1,6 @@
 .buildinfo
 .objects.inv
+objects.inv
 source/
 _sources/
 .doctrees/
